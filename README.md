@@ -10,5 +10,5 @@ Exploratory analysis, cleaning, and train/test set splitting were done in the dl
 ## Model Training:
 The training loop is implemented in the train_decoder function. This function will train the network over all the batches for the number of epochs given. The model progress will be shown every number of batches.
 
-## Model Evaluation:
-Test accuracy using model from scratch turned out to be 11% while the test accuracy using transfer learning was 70%. 
+## Model Evaluation: 
+The best performance came from the lstm model with the hyperparameters set as embedding_dim = 200 and hidden_dim = 256. The loss turned out to be 3.349. 
